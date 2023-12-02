@@ -69,7 +69,7 @@ function selected(route: any, nav: NavLink) {
         <RouterLink to="/" class="flex items-center">
           <img class="w-10 h-10" src="../../assets/logo.svg" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-            Ping.pub
+            Anatolian Team
           </h1>
         </RouterLink>
         <div
@@ -210,56 +210,11 @@ function selected(route: any, nav: NavLink) {
           {{ item?.heading }}
         </div>
       </div>
+      
       <div class="px-2">
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
           {{ $t('module.sponsors') }}
         </div>
-        <a
-          href="https://osmosis.zone"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <img
-            src="https://ping.pub/logos/osmosis.jpg"
-            class="w-6 h-6 rounded-full mr-3"
-          />
-          <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Osmosis
-          </div>
-        </a>
-        <a
-          href="https://celestia.org"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <img
-            src="https://ping.pub/logos/celestia.png"
-            class="w-6 h-6 rounded-full mr-3"
-          />
-          <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Celestia
-          </div>
-        </a>
-        <a
-          href="https://becole.com"
-          target="_blank"
-          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
-        >
-          <img
-            src="https://becole.com/static/logo/logo_becole.png"
-            class="w-6 h-6 rounded-full mr-3"
-          />
-          <div
-            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
-          >
-            Becole
-          </div>
-        </a>
-
           <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
             Tools
           </div>
@@ -276,7 +231,19 @@ function selected(route: any, nav: NavLink) {
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">{{ $t('module.links') }}</div>
         <a
-          href="https://twitter.com/ping_pub"
+          href="https://anatolianteam.com/"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:web" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            Twitter
+          </div>
+        </a>
+        <a
+          href="https://twitter.com/AnatolianTeam"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
@@ -288,12 +255,11 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
         <a
-          v-if="showDiscord"
-          href="https://discord.com/invite/CmjYVSr6GW"
+          href="https://github.com/AnatolianTeam"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
-          <Icon icon="mdi:discord" class="text-xl mr-2" />
+          <Icon icon="mdi:github" class="text-xl mr-2" />
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
@@ -301,15 +267,15 @@ function selected(route: any, nav: NavLink) {
           </div>
         </a>
         <a
-          href="https://github.com/ping-pub/explorer/discussions"
+          href="https://t.me/AnatolianTeam"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
-          <Icon icon="mdi:frequently-asked-questions" class="text-xl mr-2" />
+          <Icon icon="mdi:telegram" class="text-xl mr-2" />
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            FAQ
+            Telegram
           </div>
         </a>
       </div>
