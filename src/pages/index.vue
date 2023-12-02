@@ -56,9 +56,6 @@ const chainStore = useBlockchain()
       <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
       </h1>
-      <div class="badge badge-primary badge-outline dark:invert mt-1 text-sm md:!mt-8">
-        {{ $t('pages.tag') }}
-      </div>
     </div>
     <div class="text-center text-base">
       <p class="mb-1">
