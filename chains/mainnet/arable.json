@@ -1,0 +1,32 @@
+{
+  "chain_name": "rebus",
+  "api": [
+      {"provider": "AcreScan", "address": "https://rest.acrescan.com/"}, 
+      {"provider": "SynergyNodes", "address": "https://lcd-acre.synergynodes.com/"},
+      {"provider": "Cosmos", "address": "https://rest.cosmos.directory/acrechain"},
+      {"provider": "NodeStake", "address": "https://api.acre.nodestake.top"},
+      {"provider": "Nodeist", "address": "https://api-acrechain.nodeist.net"}
+  ],
+  "rpc": [
+      {"provider": "AcreScan", "address": "https://rpc.acrescan.com/"}, 
+      {"provider": "Cosmos", "address": "https://api.mainnet.rebus.money:26657"}, 
+      {"provider": "NodeStake", "address": "https://rpc.acre.nodestake.top"},
+      {"provider": "Nodeist", "address": "https://rpc-acrechain.nodeist.net/"},
+      {"provider": "SynergyNodes", "address": "https://rpc-acre.synergynodes.com/"}
+    ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "acre",
+  "logo": "/logos/arable.svg",
+  "assets": [
+    {
+      "base": "aacre",
+      "symbol": "Acre",
+      "exponent": "18",
+      "coingecko_id": "acre",
+      "logo": "/logos/arable.svg"
+    }
+  ]
+}
