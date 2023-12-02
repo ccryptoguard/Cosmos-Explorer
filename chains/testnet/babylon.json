@@ -1,0 +1,30 @@
+{
+  "chain_name": "rebus",
+  "api": [
+      {"provider": "Lesnik_Utsa", "address": "https://t-babylon.api.utsa.tech/"},
+      {"provider": "Polkachu", "address": "https://babylon-testnet-rpc.polkachu.com:443"},
+      {"provider": "NodeStake", "address": "https://rpc-t.babylon.nodestake.top"},
+      {"provider": "Nodeist", "address": "https://api-testnet-babylon.nodeist.net"}
+  ],
+  "rpc": [
+      {"provider": "RebLesnik_Utsaus", "address": "https://t-babylon.rpc.utsa.tech/"}, 
+      {"provider": "Polkachu", "address": "https://babylon-testnet-rpc.polkachu.com:1317"},
+      {"provider": "NodeStake", "address": "https://api-t.babylon.nodestake.top"},
+      {"provider": "Nodeist", "address": "https://rpc-testnet-babylon.nodeist.net"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "bbn",
+  "logo": "/logos/babylon.svg",
+  "assets": [
+    {
+      "base": "ubbn",
+      "symbol": "Babylon",
+      "exponent": "18",
+      "coingecko_id": "babylon",
+      "logo": "/logos/babylon.svg"
+    }
+  ]
+}
