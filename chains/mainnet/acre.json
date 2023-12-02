@@ -1,5 +1,5 @@
 {
-  "chain_name": "rebus",
+  "chain_name": "acre",
   "api": [
       {"provider": "AcreScan", "address": "https://rest.acrescan.com/"}, 
       {"provider": "SynergyNodes", "address": "https://lcd-acre.synergynodes.com/"},
