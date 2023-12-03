@@ -67,10 +67,7 @@ function selected(route: any, nav: NavLink) {
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/" class="flex items-center">
-          <img class="w-10 h-10" src="../../assets/logo.svg" />
-          <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-            Anatolian Team
-          </h1>
+          <img width="150" height="150" src="../../assets/logo.svg" />
         </RouterLink>
         <div
           class="pr-4 cursor-pointer xl:!hidden"
@@ -239,7 +236,7 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            Twitter
+            Website
           </div>
         </a>
         <a
@@ -263,7 +260,7 @@ function selected(route: any, nav: NavLink) {
           <div
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
-            Discord
+            GitHub
           </div>
         </a>
         <a
