@@ -1,18 +1,19 @@
 {
   "chain_name": "acre",
   "api": [
-      {"provider": "AcreScan", "address": "https://rest.acrescan.com/"}, 
+      {"provider": "AcreScan", "address": "https://rest.acrescan.com/"},
       {"provider": "SynergyNodes", "address": "https://lcd-acre.synergynodes.com/"},
       {"provider": "Cosmos", "address": "https://rest.cosmos.directory/acrechain"},
       {"provider": "NodeStake", "address": "https://api.acre.nodestake.top"},
-      {"provider": "Nodeist", "address": "https://api-acrechain.nodeist.net"}
+      {"provider": "Nodeist", "address": "https://api-acrechain.nodeist.net"},
+      {"provider": "AcreScan", "address": "https://rest.acrescan.com/"}
   ],
-  "rpc": [
-      {"provider": "AcreScan", "address": "https://rpc.acrescan.com/"}, 
+  "rpc": [ 
       {"provider": "Cosmos", "address": "https://api.mainnet.rebus.money:26657"}, 
       {"provider": "NodeStake", "address": "https://rpc.acre.nodestake.top"},
       {"provider": "Nodeist", "address": "https://rpc-acrechain.nodeist.net/"},
-      {"provider": "SynergyNodes", "address": "https://rpc-acre.synergynodes.com/"}
+      {"provider": "SynergyNodes", "address": "https://rpc-acre.synergynodes.com/"},
+      {"provider": "AcreScan", "address": "https://rpc.acrescan.com/"}
     ],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
@@ -25,7 +26,7 @@
       "base": "aacre",
       "symbol": "Acre",
       "exponent": "18",
-      "coingecko_id": "acre",
+      "coingecko_id": "arable-protocol",
       "logo": "/logos/arable.svg"
     }
   ]
